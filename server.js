@@ -22,7 +22,7 @@ app.use(passport.session());
 
 // db con
 mongoose.set("strictQuery", false);
-const DbConnectURl = "mongodb+srv://myproject:steve@cluster0.xongwk6.mongodb.net/haspital-management-system?retryWrites=true&w=majority";
+const DbConnectURl = "mongodb+srv://smyprojects:ssteves@cluster0.xongwk6.mongodb.net/haspital-management-system?retryWrites=true&w=majority";
 mongoose.connect(DbConnectURl);
 // db con
 

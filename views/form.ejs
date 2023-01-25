@@ -1,0 +1,56 @@
+﻿<%- include("./header") -%>
+              
+            <div class="container">
+
+               <div class="panel panel-info">
+                        <div>
+                           <h1 class="text-center m-3">ADD FORM</h1>
+                        </div>
+                        
+                        <div class="panel-body">
+                            <form role="form" method="post" action="./addpatient">
+                                <div class="row"> 
+                                        <div class="form-group col-6">
+                                            <label>Enter Patient Id</label>
+                                            <input name="patient_id"  class="form-control" type="number">
+                                        </div>
+
+                                        <div class="form-group col-6">
+                                            <label>Patient Name</label>
+                                            <input name="patient_name" class="form-control" type="text">
+                                        </div>
+
+                                        <div class="form-group col-6">
+                                            <label>Patient Age</label>
+                                            <input name="patient_age" class="form-control" type="number">
+                                        </div>
+
+                                        <div class="form-group col-6">
+                                            <label>Patient MobileNo</label>
+                                            <input name="patient_mobileNo" class="form-control" type="number">
+                                        </div>
+
+                                        <div class="form-group col-6">
+                                            <label>Patient Disease</label>
+                                            <input name="patient_disease" class="form-control" type="text">
+                                        </div>
+
+                                        <div class="form-group col-6">
+                                            <label>patient address</label>
+                                            <input name="patient_address" class="form-control" type="text"></input>
+                                        </div>
+                                  
+                                        <div class="form-group col-6">
+                                            <button type="submit" class="btn btn-info">Add Patient</button>
+                                        </div>
+
+                                    </div>
+
+                                    </form>
+                            </div>
+                        </div>
+                            </div>
+
+
+<%- include("./footer") -%>
+    
